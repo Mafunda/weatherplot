@@ -1,0 +1,1000 @@
+  155  pwd
+  156  touch test.txt
+  157  touch test1.txt test2.txt test3.txt 
+  158  ls
+  159  rm -v *.txt
+  160  ls
+  161  touch test.txt
+  162  ls
+  163  rm my_songs test.txt 
+  164  ls
+  165  gedit
+  166  nano
+  167  ls
+  168  cat my_file 
+  169  cat my_file |wc
+  170  cat my_file | wc
+  171  cat my_file | wc -l
+  172  pwd
+  173  cd ../ ../
+  174  cd ../
+  175  pwd
+  176  cd /
+  177  ls
+  178  cd /home/
+  179  ls
+  180  whoami
+  181  cat >  shakespeare.txt
+  182  cat > shakespeare
+  183  nano shakespeare.txt
+  184  pwd
+  185  cd /home
+  186  nano shakespeare.txt
+  187  cd
+  188  pwd
+  189  touch shakespeare.txt
+  190  ls
+  191  mv shakespeare.txt sonnet-18.txt
+  192  ls
+  193  mkdir poetry
+  194  ls
+  195  mv sonnet-18.txt poetry/
+  196  ls
+  197  cd poetry
+  198  ls
+  199  cd ..
+  200  ls
+  201  vi sonnet-18.txt
+  202  pwd
+  203  cd school_2018/
+  204  cd ..
+  205  ls
+  206  cd poetry/
+  207  ls
+  208  nano sonnet-18.txt 
+  209  cat sonnet-18.txt 
+  210  cd /home
+  211  ls
+  212  ls -l
+  213  pwd
+  214  ls
+  215  ls -l
+  216  /usr/share
+  217  ls
+  218  ls -l
+  219  cd /home/user
+  220  ls
+  221  cd usr/share
+  222  pwd
+  223  cd /home/user
+  224  ls
+  225  ls doc
+  226  cd usr/share
+  227  pwd
+  228  ls
+  229  ls /usr/share/
+  230  ls usr/share
+  231  ls /usr/share
+  232  ls /
+  233  ls /home/user/
+  234  pwd
+  235  ls /home
+  236  ls /home/user/share
+  237  ls /usr/share
+  238  ls doc
+  239  ls /usr/share/doc
+  240  ls /user
+  241  ls .
+  242  ls ../
+  243  echo ~
+  244  cat user
+  245  pwd
+  246  cd /home/
+  247  pwd
+  248  touch my_file.txt
+  249  pwd
+  250  ls
+  251  cd 
+  252  ls
+  253  cd /usr/share
+  254  cat hello.txt
+  255  cat ~/hello.txt
+  256  hostname
+  257  man hostname
+  258  hostname -I
+  259  locate hostname
+  260  man rm
+  261  hostname -I
+  262  clear
+  263  ls -a
+  264  ls -a .bashrc
+  265  clear
+  266  pwd
+  267  cd /home/
+  268  pwd
+  269  ls
+  270  ls -l
+  271  cd /
+  272  pwd
+  273  ls
+  274  ls ~
+  275  pwd
+  276  ls
+  277  cd /home/
+  278  ls
+  279  echo *
+  280  echo ~
+  281  cd /home/
+  282  pwd
+  283  locate hostname
+  284  echo "*'
+  285  echo "*"
+  286  which hostname
+  287  pwd
+  288  ls
+  289  cd school_2018/
+  290  ls
+  291  touch file1 file2
+  292  ls
+  293  files = "file2 file2"
+  294  echo $files
+  295  files = "file2 file3"
+  296  files = "file1 file2"
+  297  echo $files
+  298  pwd
+  299  ls
+  300  clear
+  301  history
+  302  cd school_2018/
+  303  echo cd school_2018/
+  304  clear
+  305  echo clear
+  306  ls
+  307  touch barbie.txt food.txt quicks.txt
+  308  for filename in *.txt; do  mv -v $filename $filename.old; done
+  309  cd ~
+  310  pwd
+  311  find . -name '*.old'
+  312  locate '*.old'
+  313  cd school_2018/linux/
+  314  man find
+  315  ls
+  316  cd ..
+  317  ls
+  318  mv barbie.txt.old barbie.txt.OLD
+  319  ls
+  320  find -name '*.OLD'
+  321  df
+  322  man df
+  323  df -h
+  324  man df
+  325  exit
+  326  ls -a
+  327  ls -A
+  328  man ls
+  329  history
+  330  ls
+  331  cd school_2018/
+  332  ls
+  333  for filename in *.txt; do echo $filename; done
+  334  for filename in *.old; do echo $filename; done
+  335  for filename in *.old; do echo Hello $filename; done
+  336  for filename in *; do echo Hello $filename; done
+  337  ls
+  338  echo *
+  339  find *
+  340  find -type d
+  341  find -type f
+  342  locate bashbug
+  343  find *
+  344  find -iname
+  345  man find
+  346  find iname
+  347  man find
+  348  names 'martin susan treasure courtney nyarai'
+  349  names= 'martin susan treasure courtney nyarai'
+  350  names = 'martin susan treasure courtney nyarai'
+  351  names='martin susan treasure courtney nyarai'
+  352  echo $names
+  353  for names in $names; do echo hello $names; done
+  354  for names in *; do  echo my name is $names; done
+  355  for names in $names; do  echo my name is $names; done
+  356  $names
+  357  names='martin susan treasure nyarai'
+  358  echo $names
+  359  for names in $names; do echo; done
+  360  for names in $names; do echo hello $names; done
+  361  for names in $names; do echo hello $names done; for names in $names; do echo hello $names done; 
+  362  echo $names
+  363  names='martin susan treasure nyarai'
+  364  echo $names
+  365  for names in $names; do  echo hello $names; done
+  366  names='martin susan treasure nyarai'
+  367  ls
+  368  find -name '*.old'
+  369  find -iname '*.old'
+  370  find -iname
+  371  find -iname '*.old'
+  372  echo 'my name is martin' | wc
+  373  man wc
+  374  find *
+  375  ls
+  376  find -type d
+  377  find -type f
+  378  history
+  379  history > hist_file
+  380  echo hist_file 
+  381  nano hist_file 
+  382  ls -lh
+  383  less hist_file 
+  384  head hist_file 
+  385  head -5 hist_file 
+  386  tail -5 hist_file 
+  387  for i in 'seq 1 10'; do echo i; done
+  388  for i in 'seq 1 10'; do echo i; done
+  389  echo 'seq 1 10'
+  390  for i in {1:10}; do echo $i; done
+  391  for i in {1..10}; do echo $i; done
+  392  for i in {1..10}; do echo $i is a number; done
+  393  history > history_file
+  394  cat history_file
+  395  pwd
+  396  cd school_2018/
+  397  pwd
+  398  touch one two three four five
+  399  ls
+  400  numbers='one two three four five'
+  401  ls
+  402  echo numbers
+  403  echo $numbers
+  404  for i in $numbers; do echo $i; done
+  405  for file in *; do  echo $file; done
+  406  for file in '*.txt'; do echo hello my $file; done
+  407  for file in *.txt; do echo hello my $file; done
+  408  history
+  409  history > historyfile
+  410  cat historyfile
+  411  tail -5 historyfile
+  412  less -5 historyfile
+  413  tail -5 historyfile
+  414  more historyfile
+  415  less historyfile
+  416  head -20 historyfile
+  417  locate bashbug
+  418  find -name "bashbug"
+  419  find / -name "bashbug" 2>/dev/null
+  420  q
+  421  which bashbug
+  422  echo "my name is martin" | wc
+  423  man wc
+  424  echo "my name is martin" | wc -m
+  425  echo "my name is martin" | wc -c
+  426  man wc
+  427  echo "my name is martin" | wc -w
+  428  echo "my name is martin" | wc -l
+  429  echo "my name is martin" | wc -w
+  430  echo "my name is martin" | wc -c
+  431  which python
+  432  ls
+  433  less historyfile
+  434  more historyfile
+  435  for i in {1..100}; do echo $i; done
+  436  for i in {1..100}; do echo "Number is" $i; done
+  437  wc *.txt | less
+  438  clear
+  439  date
+  440  touch name
+  441  cat > name
+  442  cat name
+  443  cat >> name
+  444  cat name
+  445  sort name
+  446  cat >> name
+  447  cat name
+  448  sort name
+  449  sort -u name
+  450  sort -u name > sorted_names
+  451  echo sorted_names 
+  452  ls
+  453  cat sorted_names 
+  454  cat /etc/passwd
+  455  cat /etc/passwd | cut -d: -f1
+  456  cat /etc/passwd | cut -d: -f2
+  457  cat /etc/passwd | cut -d: -f3
+  458  cat /etc/passwd | cut -d: -f4
+  459  cat /etc/passwd | cut -d: -f5
+  460  man cut
+  461  cat /etc/passwd
+  462  cat /etc/passwd | cut -d: -f1
+  463  man sed
+  464  sed -e
+  465  sed -e 's/Martin/Marty/'
+  466  sed -e 's/Martin/Marty/' name
+  467  cat name
+  468  sed -i 's/Martin/Marty/' name
+  469  cat name
+  470  sed -i 's/martin/marty/' name
+  471  cat name
+  472  man sed
+  473  who
+  474  cat /etc/passwd
+  475  cat /etc/passwd | cut -d: -f1 | sort > exercise
+  476  cat exercise
+  477  cd 
+  478  pwd
+  479  cd 
+  480  ls
+  481  cd school_2018/
+  482  cd linux/
+  483  pushd ~/school_2018/linux/
+  484  pwd
+  485  popd
+  486  pwd
+  487  cat > martifile
+  488  cat martifile
+  489  sed -i 's/martin/marty/' martifile
+  490  cat martifile
+  491  sed -i 's/Martin/marty/' martifile
+  492  cat martifile
+  493  man sed
+  494  man grep
+  495  cd 
+  496  mkdir dog
+  497  ls
+  498  cd dog
+  499  ls
+  500  mkdir cat
+  501  ls
+  502  cd cat
+  503  mkdir mouse
+  504  ls
+  505  cd
+  506  ls
+  507  rm -v dog
+  508  rmdir dog
+  509  man rmdir
+  510  rmdir -p dog
+  511  ls
+  512  cd dog
+  513  ls
+  514  cd cat
+  515  ls
+  516  cd mouse
+  517  ls
+  518  rm mouse
+  519  rmdir mouse
+  520  cd
+  521  ls
+  522  rm -r dog
+  523  ls
+  524  mkdir /dog/cat/mouse
+  525  mkdir dog/cat/mouse
+  526  mkdir /dog/cat/mouse/
+  527  mkdir dog/cat/mouse/
+  528  mkdir -p dog/cat/mouse/
+  529  ls
+  530  cd dog
+  531  ls
+  532  cd cat
+  533  ls
+  534  cd mouse
+  535  ls
+  536  cd
+  537  ls
+  538  man rmdir
+  539  cd dog
+  540  cd cat
+  541  cd mouse
+  542  rmdir mouse
+  543  cd
+  544  cd ..
+  545  ls
+  546  cd
+  547  ls
+  548  cd cat
+  549  cd dog
+  550  ls
+  551  cd cat
+  552  ls
+  553  rmdir mouse
+  554  ls
+  555  cd .
+  556  ls
+  557  cd ..
+  558  rmdir cat
+  559  ls
+  560  cd
+  561  ls'
+  562  ls
+  563  rmdir dog
+  564  ls
+  565  pwd
+  566  cp /etc/passwd/ /home/user
+  567  cp /etc/passwd /home/user
+  568  cat /etc/passwd
+  569  mv /etc/passwd user
+  570  man mv
+  571  mv /etc/passwd users
+  572  mv /etc/passwd /users
+  573  mv /etc/passwd /home/users
+  574  cd
+  575  ls
+  576  mv passwd users
+  577  ls
+  578  mkdir programs
+  579  ls
+  580  cp /bin programs
+  581  man cp
+  582  cp /bin /home/programs
+  583  which bin
+  584  ls
+  585  cd
+  586  ls
+  587  cp /bin /programs
+  588  man cp
+  589  cp -af /bin /programs
+  590  ls
+  591  cp -af /bin ~/programs
+  592  pwd
+  593  cat /bin
+  594  ls /bin
+  595  ls
+  596  ls ~/programs
+  597  ls ~/programs/bin
+  598  cp /bin ~/programs
+  599  cp ~/bin ~/programs
+  600  clear
+  601  history
+  602  history > historyday2
+  603  cat historyday2 
+  604  head -10 historyday2 
+  605  tail -10 historyday2 
+  606  less historyday2 
+  607  more historyday2 
+  608  cd 
+  609  ls
+  610  rm -r programs
+  611  ls
+  612  touch one two three four five
+  613  ls
+  614  touch baked-beans
+  615  ls
+  616  ls -l baked-beans
+  617  one two three four five
+  618  man touch
+  619  touch -t 2012181200 baked-beans 
+  620  ls -l baked-beans 
+  621  cd /
+  622  pwd
+  623  ls
+  624  man tr
+  625  tr -c '[:alnum:]' '[\n*]' < martifile | sort | uniq -c | sort -nr | head  -10
+  626  cd
+  627  ls
+  628  cd school_2018/linux/
+  629  ls
+  630  tr -c '[:alnum:]' '[\n*]' < martifile | sort | uniq -c | sort -nr | head  -10
+  631  man sort
+  632  pwd
+  633  ls
+  634  cat martifile 
+  635  cat my_file 
+  636  cd
+  637  ls
+  638  cd school_2018/linux/
+  639  ls
+  640  touch my_file 
+  641  nano my_file
+  642  cat my_file 
+  643  tac my_file 
+  644  man tac
+  645  tr -c '[:alnum:]' '[\n*]' < martifile | sort | uniq -c | sort -nr | head  -10
+  646  pwd
+  647  ls
+  648  nano my_file 
+  649  nano script1.sh
+  650  ls
+  651  ls -l
+  652  chmod u+x script1.sh 
+  653  ls
+  654  ./script1.sh 
+  655  ./script1.sh > script2
+  656  cat script2
+  657  tr -c '[:alnum:]' '[\n*]' < script2 | sort | uniq -c | sort -nr | head  -10
+  658  nano script2
+  659  cat script2
+  660  nano script2
+  661  nano script1.sh 
+  662  ./script1.sh 
+  663  cat script1.sh
+  664  ls
+  665  cat myfile.txt 
+  666  nano script1.sh 
+  667  ./script1.sh 
+  668  cat myfile.txt 
+  669  nano script1.sh 
+  670  ./script1.sh 
+  671  nano script1.sh 
+  672  ./script1.sh 
+  673  ll
+  674  man ll
+  675  man l
+  676  nano script3.sh
+  677  chmod u+x script3.sh 
+  678  ./script3.sh 
+  679  ls
+  680  mv shakespeare.txt sonnet-18.txt
+  681  ls
+  682  cd
+  683  ls
+  684  mv sonnet-18.txt poetry
+  685  mv sonnet-18.txt ~/poetry
+  686  cd school_2018/
+  687  ls
+  688  cd linux/
+  689  ls
+  690  mv sonnet-18.txt ~/poetry
+  691  cd
+  692  ls
+  693  cd poetry/
+  694  ls
+  695  nano sonnet-18.txt 
+  696  cat sonnet-18.txt 
+  697  tr -c '[:alnum:]' '[\n*]' < sonnet-18.txt | sort | uniq -c | sort -nr | head  -10
+  698  man wc
+  699  pwd
+  700  cd
+  701  pwd
+  702  ls
+  703  man rm
+  704  tr -c '[:alnum:]' '[\n*]' < sonnet-18.txt | sort | uniq -c | sort -nr | head  -10
+  705  tr -c '[:alnum:]' '[\n*]' < hello.txt | sort | uniq -c | sort -nr | head  -10
+  706  nano hello.txt
+  707  tr -c '[:alnum:]' '[\n*]' < hello.txt | sort | uniq -c | sort -nr | head  -10
+  708  nano hello.txt
+  709  tr -c '[:alnum:]' '[\n*]' < hello.txt | sort | uniq -c | sort -nr | head  -10
+  710  tr -c '[:alnum:]' '[\n*]' < hello.txt | sort | uniq -c | sort -nr | head  -20
+  711  which python
+  712  which python > myfirstpy.py
+  713  nano myfirstpy
+  714  chmod u+x myfirstpy.py
+  715  ls
+  716  mv myfirstpy.py mypython.py
+  717  ls
+  718  ./mypython.py
+  719  which python
+  720  which bash
+  721  which python
+  722  nano mypython.py
+  723  ./mypython.py
+  724  nano mypython.py
+  725  ./mypython.py
+  726  nano mypython.py
+  727  ./mypython.py
+  728  nano mypython.py
+  729  ./mypython.py
+  730  nano mypython.py
+  731  ./mypython.py
+  732  nano mypython.py
+  733  ./mypython.py
+  734  nano mypython.py
+  735  ./mypython.py
+  736  nano mypython.py
+  737  ./mypython.py
+  738  nano mypython.py
+  739  ./mypython.py
+  740  cd
+  741  pwd
+  742  ls
+  743  cd poetry/
+  744  ls
+  745  man chmod
+  746  man read
+  747  ./mypython.py
+  748  cd
+  749  ls
+  750  ./mypython.py
+  751  nano mypython.py
+  752  ./mypython.py
+  753  nano mypython.py
+  754  ./mypython.py
+  755  nano mypython.py
+  756  ./mypython.py
+  757  cd
+  758  ls
+  759  cd school_2018/
+  760  cd linux/
+  761  which bash
+  762  nano susan.sh
+  763  chmod u+x susan.sh
+  764  ls
+  765  ./susan.sh
+  766  nano susan.sh 
+  767  ./susan.sh
+  768  nano susan.sh 
+  769  ./susan.sh
+  770  nano susan.sh 
+  771  ./susan.sh
+  772  nano susan.sh 
+  773  ./susan.sh
+  774  nano susan.sh 
+  775  ./susan.sh
+  776  nano susan.sh 
+  777  ./susan.sh
+  778  nano susan.sh 
+  779  ls
+  780  cat th >
+  781  nano susan.sh 
+  782  man sum
+  783  nano susan.sh 
+  784  ./susan.sh
+  785  nano susan.sh 
+  786  ./susan.sh
+  787  nano susan.sh 
+  788  ./susan.sh
+  789  nano susan.sh 
+  790  ./susan.sh
+  791  nano susan.sh 
+  792  ./susan.sh
+  793  nano susan.sh 
+  794  ./susan.sh
+  795  nano susan.sh 
+  796  ./susan.sh
+  797  nano susan.sh 
+  798  ./susan.sh
+  799  nano susan.sh 
+  800  ./susan.sh
+  801  nano susan.sh 
+  802  ./susan.sh
+  803  nano susan.sh 
+  804  ./susan.sh
+  805  pwd
+  806  nano susan.sh 
+  807  ./susan.sh
+  808  nano susan.sh 
+  809  ./susan.sh
+  810  nano susan.sh 
+  811  ./susan.sh
+  812  nano susan.sh 
+  813  ./susan.sh
+  814  nano susan.sh 
+  815  ./susan.sh
+  816  nano susan.sh 
+  817  ./susan.sh
+  818  nano susan.sh 
+  819  ./susan.sh
+  820  nano susan.sh 
+  821  ./susan.sh
+  822  nano susan.sh 
+  823  echo 2/3 | bc -l
+  824  nano susan.sh 
+  825  ./susan.sh
+  826  nano susan.sh 
+  827  ./susan.sh
+  828  nano susan.sh 
+  829  ./susan.sh
+  830  nano susan.sh 
+  831  ./susan.sh
+  832  nano susan.sh 
+  833  ./susan.sh
+  834  sudo apt-get install -y python3-numpy python3-scipy python3-matplotlib
+  835  numpy
+  836  sudo apt-get install -y python3-numpy
+  837  sudo apt-get install -y python3-scipy
+  838  sudo apt-get install -y python3-matplotlib
+  839  sudo apt-get upgrade
+  840  python
+  841  python3
+  842  gedit
+  843  gedit &
+  844  python3
+  845  gedit
+  846  gedit &
+  847  python myfile.py
+  848  which python
+  849  cd /user
+  850  cd user
+  851  cd python
+  852  pwd
+  853  ls
+  854  python myfile.py
+  855  bash:python3 myfile.py
+  856  python3 myfile.py
+  857  cd
+  858  bash:python3 myfile.py
+  859  python3 myfile.py
+  860  ls
+  861  cd python/
+  862  python3 myfile.py 
+  863  help(integrate)
+  864  help(differentiation)
+  865  cd
+  866  python3
+  867  cd python/
+  868  python myfile.py
+  869  python3
+  870  gedit &
+  871  cd
+  872  python3
+  873  math.pi
+  874  python3
+  875  cd python/
+  876  python myfile.py
+  877  quit() quit()
+  878  cd
+  879  python3
+  880  gedit loopnames.py &
+  881  cd python/
+  882  python loopnames.py
+  883  gedit newfile.py &
+  884  python newfile.py
+  885  cd 
+  886  python3
+  887  cd python/
+  888  python newfile.py
+  889  cd
+  890  export PS1="Martin"
+  891  q
+  892  python3
+  893  cd python/
+  894  python newfile.py
+  895  cd
+  896  python3
+  897  cd python/
+  898  gedit ifloop.py &
+  899  python ifloop.py &
+  900  cd
+  901  python
+  902  cd python
+  903  gedit exercise.py &
+  904  python exercise.py &
+  905  20
+  906  python exercise.py &
+  907  20
+  908  python exercise.py &
+  909  20
+  910  python exercise.py &
+  911  20
+  912  python exercise.py &
+  913  20
+  914  python exercise.py
+  915  python exercise.py &
+  916  89
+  917  python exercise.py 
+  918  gedit exercise1.py &
+  919  python exercise1.py
+  920  cd python/
+  921  python exercise1.py
+  922  gedit exercise1.py &
+  923  python exercise1.py
+  924  cd python/
+  925  python exercise1.py
+  926  cd pyth
+  927  cd python/
+  928  python exercise1.py
+  929  python3
+  930  cd python/
+  931  gedit prime.py &
+  932  python prime.py
+  933  gedit names.py &
+  934  python names.py
+  935  gedit prime_no.py &
+  936  python prime_no.py
+  937  gedit prime_no.py &
+  938  python prime_no.py
+  939  gedit fibonacci.py &
+  940  python fibonacci.py 
+  941  python prime_sol.py
+  942  time python prime_sol.py
+  943  python3
+  944  time python prime_sol.py
+  945  cd
+  946  python3
+  947  cd python/
+  948  gedit exer2.py &
+  949  time python exer2.py
+  950  cd python/
+  951  time python exer2.py
+  952  gedit exer2.py &
+  953  time python exer2.py
+  954  which python
+  955  python --version
+  956  time python exer2.py
+  957  time python3 exer2.py
+  958  gedit fibonacci.py &
+  959  gedit funcexample.py &
+  960  python3 funcexample.py
+  961  gedit funclib.py &
+  962  import funclib
+  963  python3
+  964  cd python3
+  965  python3 deg_fah.py
+  966  import funclib
+  967  cd
+  968  python3
+  969  ls
+  970  cd python/
+  971  python3
+  972  gedit text.txt &
+  973  python3 ioexample.py
+  974  gedit tabledata.txt &
+  975  python3 ioexample.py
+  976  cd
+  977  python3
+  978  cd python/
+  979  gedit exer4.py &
+  980  python3 exer4.py 
+  981  cd
+  982  python3
+  983  wget https:/tinyurl.com/matplotlibdata
+  984  wget https://tinyurl.com/matplotlibdata
+  985  cd python/
+  986  wget https://tinyurl.com/matplotlibdata
+  987  cd
+  988  ls
+  989  mv matplotlibdata matplotlibdata.tgz
+  990  ls
+  991  tar -xzf matplotlibdata.tgz
+  992  cd python/
+  993  ls
+  994  mv data data.tgz
+  995  ls
+  996  tar -xzf data.tgz
+  997  ls
+  998  cd data.tgz/
+  999  ls
+ 1000  cd
+ 1001  ls
+ 1002  cd Downloads/
+ 1003  ls
+ 1004  tar -xzf data.tgz 
+ 1005  ls
+ 1006  ls -ltr ~/Downloads/
+ 1007  ls
+ 1008  ls data
+ 1009  cd pytho
+ 1010  cd
+ 1011  cd python/
+ 1012  ls
+ 1013  ls data.tgz
+ 1014  mv data.tgz data
+ 1015  ls
+ 1016  ls data
+ 1017  cat saturday.csv
+ 1018  cd data
+ 1019  cat saturday.csv
+ 1020  clear
+ 1021  ls
+ 1022  cat testdata.csv
+ 1023  python3
+ 1024  cd
+ 1025  python3
+ 1026  cd python/
+ 1027  cd data/
+ 1028  python3
+ 1029  cat cols23
+ 1030  python3
+ 1031  gedit plotdata.py &
+ 1032  python3
+ 1033  python3 plotdata.py
+ 1034  python3
+ 1035  python3 plotdata.py
+ 1036  python3
+ 1037  ls
+ 1038  gedit assin.py &
+ 1039  python3
+ 1040  python3 assin.py
+ 1041  ls
+ 1042  cat monday.csv 
+ 1043  clear
+ 1044  python3 assin.py
+ 1045  python3 monday.py
+ 1046  python3 assin.py
+ 1047  python3 monday.py
+ 1048  python3 assin.py
+ 1049  python3 monday.py
+ 1050  python3 assin.py
+ 1051  pythonh3
+ 1052  python3
+ 1053  python3 exer25.py
+ 1054  python3
+ 1055  cd python/
+ 1056  ls *.py
+ 1057  cd
+ 1058  sudo apt-get install python3-pandas
+ 1059  pwd
+ 1060  cd python/
+ 1061  cd data
+ 1062  ls
+ 1063  ls monday.csv
+ 1064  python3
+ 1065  cd
+ 1066  sudo apt-get install git
+ 1067  git
+ 1068  cd python/data/
+ 1069  dir
+ 1070  git config --global user.name "Martin Mafunda" 
+ 1071  git config --global user.email "martinmafunda@gmail.com"
+ 1072  git config --list
+ 1073  git config --global color.ui auto
+ 1074  git config --global core.editor "nano -w"
+ 1075  ls
+ 1076  git init
+ 1077  ls -la .git
+ 1078  ls -adl .git
+ 1079  ls
+ 1080  git status
+ 1081  ls
+ 1082  git add plotdata.py
+ 1083  git status
+ 1084  git commit -m "add script to plot weather data"
+ 1085  git status
+ 1086  git commit -m "add script to plot weather data"
+ 1087  git add "*.csv"
+ 1088  git status
+ 1089  git commit -m "added other scripts to plot weather data"
+ 1090  git status
+ 1091  git log
+ 1092  ls
+ 1093  git remote add origin https://github.com/Mafunda/weatherplot.git
+ 1094  git remote -v
+ 1095  git push -u origin master
+ 1096  cd
+ 1097  git clone https://github.com/Mafunda/weatherplot.git
+ 1098  cd weatherplot
+ 1099  ls
+ 1100  git log
+ 1101  ls
+ 1102  nano plotdata.py
+ 1103  git add plotdata.py
+ 1104  git status
+ 1105  git commit -m "added a comment to the file"
+ 1106  git status
+ 1107  git reset HEAD friday.csv
+ 1108  git checkoutfriday.csv
+ 1109  git checkout friday.csv
+ 1110  git status
+ 1111  git push
+ 1112  git branch add_feature
+ 1113  git branch
+ 1114  git checkout add_feature
+ 1115  git branch
+ 1116  nano plotdata.py
+ 1117  git add plotdata.py
+ 1118  git commit -m "add a greeting"
+ 1119  git status
+ 1120  git branch master
+ 1121  git checkout master
+ 1122  ls
+ 1123  git add plotdata.py
+ 1124  nano plotdata.py
+ 1125  git branch
+ 1126  git checkout add_feature
+ 1127  ls
+ 1128  nano plotdata.py
+ 1129  git branch
+ 1130  git branch master
+ 1131  git branch
+ 1132  git checkout master
+ 1133  git branch
+ 1134  git branch another_feature
+ 1135  git branch
+ 1136  git checkout another_feature
+ 1137  git branch
+ 1138  git checkout master
+ 1139  git branch
+ 1140  ls
+ 1141  nano plotdata.py
+ 1142  git add plotdata.py
+ 1143  git commit -m "add a hello"
+ 1144  git status
+ 1145  git branch
+ 1146  git checkout another_feature
+ 1147  git branch
+ 1148  nano plotdata.py
+ 1149  git add plotdata.py
+ 1150  git commit -m "any message"
+ 1151  git checkout master
+ 1152  git branch
+ 1153  git merge another_feature
+ 1154  history > myhist.txt
